@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from .shinobi_api import get_monitors, set_recording, delete_recordings
-from .auth import authenticate
+from shinobi_api import get_monitors, set_recording, delete_recordings
+from auth import authenticate
 
 app = FastAPI()
 

@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      SHINOBI_URL: "http://shinobi:8080"
+      SHINOBI_URL: "http://10.0.0.38:8080"
       SHINOBI_API_KEY: "your_api_key"
 
   frontend:
